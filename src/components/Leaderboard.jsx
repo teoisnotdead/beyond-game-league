@@ -1,4 +1,4 @@
-export const TableClasifications = () => {
+export const Leaderboard = () => {
   return (
     <div className='flex justify-center'>
       <div
