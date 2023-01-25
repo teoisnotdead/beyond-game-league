@@ -2,7 +2,7 @@ import { teams } from '../constants'
 
 export const TableLeaderboard = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex flex-col items-center m-7'>
       <div
         className='overflow-hidden overflow-x-auto rounded-lg border border-gray-200 dark:border-gray-700'
       >

@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer aria-label='Site Footer' className='mt-auto bg-gray-100 dark:bg-gray-900'>
       <div className='flex justify-between mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8'>
         <div className=' text-teal-600 dark:text-teal-300'>
-          <LogoBG className='h-auto' />
+          <LogoBG className='h-28' />
         </div>
 
         <div>
