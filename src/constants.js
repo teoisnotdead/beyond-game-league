@@ -1,13 +1,17 @@
 export const cloudinaryImages = {
-  LOGO: {
-    PORTRAIT: {
-      BLACK: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-black-portrait_xy9thw.png',
-      WHITE: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-white-portrait_twe4ck.png'
+  logo: {
+    portrait: {
+      black: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-black-portrait_xy9thw.png',
+      white: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-white-portrait_twe4ck.png'
     },
-    LANDSCAPE: {
-      BLACK: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674091391/app-beyond-game-league/bg-logo-black-landscape_kre8lv.png',
-      WHITE: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-white-landscape_wtldja.png'
+    landscape: {
+      black: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674091391/app-beyond-game-league/bg-logo-black-landscape_kre8lv.png',
+      white: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674090196/app-beyond-game-league/bg-logo-white-landscape_wtldja.png'
     }
+  },
+  news: {
+    general: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674654507/app-beyond-game-league/bg-news_qms7vz.png',
+    valorant: 'https://res.cloudinary.com/teoisnotdead/image/upload/v1674654506/app-beyond-game-league/bg-news-valorant_acdnky.png'
   }
 }
 
