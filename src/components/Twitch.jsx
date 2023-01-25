@@ -9,6 +9,14 @@ export const Twitch = () => {
   }
 
   return (
-    <TwitchEmbed channel='teo730__' autoplay muted withChat={false} darkMode={false} hideControls={false} onVideoReady={handleReady} />
+    <TwitchEmbed
+      channel='valorant_la'
+      autoplay
+      muted
+      withChat={false}
+      darkMode={false}
+      hideControls={false}
+      onVideoReady={handleReady}
+    />
   )
 }
