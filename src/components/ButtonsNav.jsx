@@ -6,7 +6,6 @@ export const ButtonsNav = () => {
 
   const classDarkMode = `rounded p-2 transition ${darkMode ? 'bg-gray-100 text-gray-600 hover:text-gray-600/75' : 'dark:bg-gray-800 dark:text-white dark:hover:text-white/75'}`
   const classLoginBtn = `rounded-md px-5 py-2.5 text-sm font-medium shadow ${darkMode ? 'bg-teal-600 text-white' : 'dark:hover:bg-teal-500'}`
-  const classRegisterBtn = `rounded-md px-5 py-2.5 text-sm font-medium shadow ${darkMode ? 'bg-gray-100 text-teal-600' : 'dark:bg-gray-800 dark:text-white dark:hover:text-white/75'}`
 
   const handleDarkMode = () => {
     setDarkMode(!darkMode)
@@ -16,10 +15,6 @@ export const ButtonsNav = () => {
     <div className='flex items-center gap-4'>
       <div className='sm:flex sm:gap-4'>
         <Button className={classLoginBtn}>Acceder</Button>
-
-        <div className='hidden sm:flex'>
-          <Button className={classRegisterBtn}>Registrar</Button>
-        </div>
       </div>
 
       <div className='block md:hidden'>
