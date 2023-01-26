@@ -1,6 +1,6 @@
 import { teams } from '../constants'
-
-export const PreviousNextMatches = ({ title, date, hasResults }) => {
+import { Score } from './Score'
+export const PreviousNextMatches = ({ title, date }) => {
   return (
     <div className='w-full max-w-sm p-5 m-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
       <div className='flex flex-col items-center pb-10'>
@@ -11,7 +11,7 @@ export const PreviousNextMatches = ({ title, date, hasResults }) => {
           {date}
         </span>
         <div className='flex mt-4 space-x-8 md:mt-6'>
-          <span className='text-xl '>13</span>
+          <Score hasScore isWinner>13</Score>
           <img
             className='w-8'
             src={teams[0].logo}
@@ -23,10 +23,10 @@ export const PreviousNextMatches = ({ title, date, hasResults }) => {
             src={teams[1].logo}
             alt={teams[1].name}
           />
-          <span className='text-xl text-red-500 dark:text-red-400'>11</span>
+          <Score hasScore>11</Score>
         </div>
         <div className='flex mt-4 space-x-8 md:mt-6'>
-          <span className='text-xl text-red-500 dark:text-red-400'>9</span>
+          <Score hasScore>9</Score>
           <img
             className='w-8'
             src={teams[2].logo}
@@ -38,10 +38,10 @@ export const PreviousNextMatches = ({ title, date, hasResults }) => {
             src={teams[3].logo}
             alt={teams[3].name}
           />
-          <span className='text-xl text-green-500 dark:text-green-400'>13</span>
+          <Score hasScore isWinner>13</Score>
         </div>
         <div className='flex mt-4 space-x-8 md:mt-6'>
-          <span className='text-xl text-red-500 dark:text-red-400'>14</span>
+          <Score hasScore>14</Score>
           <img
             className='w-8'
             src={teams[4].logo}
@@ -53,7 +53,7 @@ export const PreviousNextMatches = ({ title, date, hasResults }) => {
             src={teams[5].logo}
             alt={teams[5].name}
           />
-          <span className='text-xl text-green-500 dark:text-green-400'>16</span>
+          <Score hasScore isWinner>16</Score>
         </div>
       </div>
     </div>

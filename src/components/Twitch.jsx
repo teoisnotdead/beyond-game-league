@@ -13,8 +13,9 @@ export const Twitch = () => {
       channel='valorant_la'
       autoplay
       muted
+      allowFullScreen
       withChat={false}
-      darkMode={false}
+      darkMode
       hideControls={false}
       onVideoReady={handleReady}
     />
