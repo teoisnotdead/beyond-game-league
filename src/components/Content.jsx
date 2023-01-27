@@ -14,7 +14,7 @@ export const Content = () => {
         <div className='grid grid-cols-2'>
           <TableLeaderboard />
           <div>
-            <PreviousNextMatches hasScore title='Próximos partidos' date='Fecha 4' />
+            <PreviousNextMatches hasScore={false} title='Próximos partidos' date='Fecha 4' />
             <PreviousNextMatches title='Últimos partidos' date='Fecha 3' />
           </div>
         </div>
